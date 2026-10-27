@@ -1,0 +1,13 @@
+{
+    "id": "deskOps",
+    "name": "Painel ops",
+    "description": "Widget de desktop: Painel ops",
+    "version": "1.0.0",
+    "author": "gius",
+    "type": "desktop",
+    "capabilities": ["desktop-widget"],
+    "component": "./DeskOps.qml",
+    "icon": "monitor_heart",
+    "requires_dms": ">=1.5.0",
+    "permissions": ["settings_read", "settings_write"]
+}

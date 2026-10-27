@@ -1,0 +1,13 @@
+{
+    "id": "deskSystem",
+    "name": "Monitor do sistema",
+    "description": "Widget de desktop: Monitor do sistema",
+    "version": "1.0.0",
+    "author": "gius",
+    "type": "desktop",
+    "capabilities": ["desktop-widget"],
+    "component": "./DeskSystem.qml",
+    "icon": "monitoring",
+    "requires_dms": ">=1.5.0",
+    "permissions": ["settings_read", "settings_write"]
+}

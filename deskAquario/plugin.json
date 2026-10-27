@@ -1,0 +1,13 @@
+{
+    "id": "deskAquario",
+    "name": "Aquário",
+    "description": "Widget de desktop: Aquário",
+    "version": "1.0.0",
+    "author": "gius",
+    "type": "desktop",
+    "capabilities": ["desktop-widget"],
+    "component": "./DeskAquario.qml",
+    "icon": "water",
+    "requires_dms": ">=1.5.0",
+    "permissions": ["settings_read", "settings_write"]
+}
