@@ -1,0 +1,13 @@
+{
+    "id": "barClock",
+    "name": "Relógio da barra",
+    "description": "Relógio para a DankBar com hora em destaque e data menor, legível também na barra vertical",
+    "version": "1.0.0",
+    "author": "gius",
+    "type": "widget",
+    "capabilities": ["dankbar-widget"],
+    "component": "./BarClock.qml",
+    "icon": "schedule",
+    "requires_dms": ">=1.5.0",
+    "permissions": ["settings_read"]
+}
